@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MP3Demo/MP3Demo.iml" filepath="$PROJECT_DIR$/MP3Demo/MP3Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeGenerator/code-generator.iml" filepath="$PROJECT_DIR$/CodeGenerator/code-generator.iml" />
+    </modules>
+  </component>
+</project>
