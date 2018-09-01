@@ -25,7 +25,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/app", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-@Api("app")
+@Api(tags = "App 测试示例")
 public class AppController {
 
     @Autowired

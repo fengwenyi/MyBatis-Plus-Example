@@ -2,7 +2,6 @@ package com.fengwenyi.mp3demo.enums;
 
 import com.baomidou.mybatisplus.core.enums.IEnum;
 import com.fasterxml.jackson.annotation.JsonValue;
-import lombok.Getter;
 
 /**
  * <类说明>

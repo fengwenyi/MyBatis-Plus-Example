@@ -34,13 +34,13 @@ public class SwaggerConfigure {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("RESTful API Demo")
-                .description("基于SSM、Swagger2构建RESTful风格的API，并自动生成文档")
-                .termsOfServiceUrl("https://fengwenyi.com")
-                .contact(new Contact("Wenyi Feng", "https://fengwenyi.com", "xfsy2014@gmail.com"))
+                .title("MyBatis-Plus 3.x Demo")
+                .description("Spring Boot基础MyBatis-Plus 3.0.1 实现 student-city-idCard 示例")
+                .termsOfServiceUrl("http://fengwenyi.com")
+                .contact(new Contact("Wenyi Feng", "http://fengwenyi.com", "xfsy2014@gmail.com"))
                 .version("1.0")
                 .license("license")
-                .licenseUrl("https://fengwenyi.com/license")
+                .licenseUrl("http://fengwenyi.com/license")
                 .build();
     }
 

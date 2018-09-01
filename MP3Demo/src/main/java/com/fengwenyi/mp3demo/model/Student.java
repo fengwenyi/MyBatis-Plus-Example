@@ -50,7 +50,7 @@ public class Student extends Model<Student> {
     @ApiModelProperty(value = "介绍")
     private String info;
 
-    @ApiModelProperty(value = "是否逻辑删除（ture：删除；false：正常（默认））")
+    @ApiModelProperty(value = "是否逻辑删除（true：删除；false：正常（默认））")
     @TableLogic
     private Boolean isDelete;
 
