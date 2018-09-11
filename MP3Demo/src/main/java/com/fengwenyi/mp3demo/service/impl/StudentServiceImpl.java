@@ -3,15 +3,18 @@ package com.fengwenyi.mp3demo.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.fengwenyi.javalib.util.Console;
 import com.fengwenyi.javalib.util.ExceptionUtil;
 import com.fengwenyi.mp3demo.config.ConstantConfig;
 import com.fengwenyi.mp3demo.model.Student;
 import com.fengwenyi.mp3demo.dao.StudentDao;
 import com.fengwenyi.mp3demo.service.MPStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -57,4 +60,109 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
     public IPage<Student> queryStudentByPage(Long currentPage) {
         return page(new Page<>(currentPage, ConstantConfig.PAGE_SITE), null);
     }
+
+    //--------------------------------------------------test start
+
+    // 通过名字进行筛选
+    @Override
+    public void test1() {
+        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda().eq(Student::getName, "冯文议");
+//        queryWrapper.lambda().like(Student::getName, "文");
+        List<Student> studentList = list(queryWrapper);
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Override
+    public void test2() {
+
+        IPage<Student> page = page(
+                new Page<>(1, 2),
+                null);
+
+        Console.info(new Gson().toJson(page));
+
+    }
+
+    @Override
+    public void test3() {
+        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda()
+                .eq(Student::getName, "冯文议")
+//                .eq(Student::getAge, 26)
+                .eq(Student::getAge, 25);
+        List<Student> studentList = list(queryWrapper);
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Override
+    public void test4() {
+        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda()
+                .and(obj ->
+                        obj.eq(Student::getName, "冯文议")
+                            .eq(Student::getAge, 26));
+
+        List<Student> studentList = list(queryWrapper);
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Override
+    public void test5() {
+        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda()
+                .or(obj1 -> obj1.eq(Student::getName, "冯文议"))
+                .or(obj2 -> obj2.eq(Student::getName, "1"));
+        List<Student> studentList = list(queryWrapper);
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Override
+    public void test6() {
+        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda()
+                .eq(Student::getName, "冯文议")
+                .or()
+                .eq(Student::getName, "1");
+        List<Student> studentList = list(queryWrapper);
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Resource
+    StudentDao studentDao;
+
+    @Override
+    public void test7() {
+        List<Student> studentList = studentDao.selectAll();
+        for (Student student : studentList)
+            Console.info(new Gson().toJson(student));
+    }
+
+    @Override
+    public List<Student> findAll() {
+        return list(null);
+    }
+
+    @Override
+    public List<Student> findList() {
+        return list(null);
+    }
+
+    @Override
+    public Student findOne() {
+        return getOne(null);
+    }
+
+    @Override
+    public Student findById(Long id) {
+        ExceptionUtil.notNull(id, "id must not null.");
+        return getById(id);
+    }
+
+    //--------------------------------------------------test end
 }

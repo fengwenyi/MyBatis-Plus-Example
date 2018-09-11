@@ -1,6 +1,8 @@
 package com.fengwenyi.mp3demo.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.fengwenyi.javalib.result.Result;
 import com.fengwenyi.javalib.util.StringUtil;
 import com.fengwenyi.mp3demo.business.AppBusiness;
 import com.fengwenyi.mp3demo.enums.GenderEnum;
@@ -92,5 +94,4 @@ public class AppController {
             return null;
         return mpStudentService.queryStudentByPage(currentPage);
     }
-
 }

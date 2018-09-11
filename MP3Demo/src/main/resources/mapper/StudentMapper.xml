@@ -16,4 +16,9 @@
         <result column="city_id" property="cityId" />
     </resultMap>
 
+    <!--List<Student> selectAll();-->
+    <select id="selectAll" resultMap="BaseResultMap">
+        select * from t_student
+    </select>
+
 </mapper>

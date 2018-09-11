@@ -27,7 +27,7 @@ public class Utils {
      * 执行生成代码
      */
     public static void generateCode() {
-        String packageName = "com.fengwenyi.mpdemo";
+        String packageName = "com.fengwenyi.password_manage";
         //generateByTables(packageName, "t_student", "t_city", "t_idcard");
         generateByTables(packageName, null);
     }
@@ -35,14 +35,16 @@ public class Utils {
     private static void generateByTables(String packageName, String... tableNames) {
 
         // 数据库信息
-        String dbUrl = "jdbc:mysql://localhost:3306/mybatis-plus?useSSL=true";
+//        String dbUrl = "jdbc:mysql://localhost:3306/mybatis-plus?useSSL=true";
+        String dbUrl = "jdbc:mysql://localhost:3306/password-manage";
         DataSourceConfig dataSourceConfig = new DataSourceConfig()
                 .setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
-                .setPassword("xfsy2017")
-                //.setDriverName("com.mysql.jdbc.Driver") // mysql 5
-                .setDriverName("com.mysql.cj.jdbc.Driver") // mysql 8
+//                .setPassword("xfsy2017")
+                .setPassword("kU#m5eHY5iTiQj#q")
+                .setDriverName("com.mysql.jdbc.Driver") // mysql 5
+//                .setDriverName("com.mysql.cj.jdbc.Driver") // mysql 8
                 /*.setTypeConvert(new MySqlTypeConvert() {
                     @Override
                     public PropertyInfo processTypeConvert(GlobalConfig globalConfig, String fieldType) {
@@ -56,7 +58,8 @@ public class Utils {
         GlobalConfig config = new GlobalConfig()
                 .setActiveRecord(false)
                 .setAuthor("Wenyi Feng")
-                .setOutputDir("/Users/fengwenyi/Workspace/file/codeGen")
+//                .setOutputDir("/Users/fengwenyi/Workspace/file/codeGen")
+                .setOutputDir("d:/codeGen")
                 .setFileOverride(true)
                 .setActiveRecord(true)// 不需要ActiveRecord特性的请改为false
                 .setEnableCache(false)// XML 二级缓存
@@ -87,8 +90,8 @@ public class Utils {
                 //.setExclude(new String[]{"test"}) // 排除生成的表
                 .setEntityLombokModel(true) // lombok实体
                 .setEntityBuilderModel(false) // 【实体】是否为构建者模型（默认 false）
-                .setEntityColumnConstant(true) // 【实体】是否生成字段常量（默认 false）// 可通过常量名获取数据库字段名
-                .setLogicDeleteFieldName("is_delete") // 逻辑删除属性名称
+                .setEntityColumnConstant(false) // 【实体】是否生成字段常量（默认 false）// 可通过常量名获取数据库字段名 // 3.x支持lambda表达式
+                //.setLogicDeleteFieldName("is_delete") // 逻辑删除属性名称
                 //.setEntityTableFieldAnnotationEnable
                 .entityTableFieldAnnotationEnable(true)
                 ;

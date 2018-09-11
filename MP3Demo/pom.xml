@@ -24,7 +24,7 @@
         <java.version>1.8</java.version>
 
         <swagger2.version>2.9.2</swagger2.version>
-        <javalib.version>1.0.1-RELEASE</javalib.version>
+        <JavaLib.version>1.0.4.RELEASE</JavaLib.version>
         <mp.version>3.0.1</mp.version>
     </properties>
 
@@ -72,7 +72,13 @@
         <dependency>
             <groupId>com.fengwenyi</groupId>
             <artifactId>JavaLib</artifactId>
-            <version>${javalib.version}</version>
+            <version>${JavaLib.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
         </dependency>
     </dependencies>
 

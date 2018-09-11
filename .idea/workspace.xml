@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab1fcb8d-ebbe-4880-9d48-b2f1b779d475" name="Default Changelist" comment="" />
+    <list default="true" id="ab1fcb8d-ebbe-4880-9d48-b2f1b779d475" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/service/MPStudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fengwenyi_JavaLib_1_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGenerator/code-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGenerator/code-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGenerator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/CodeGenerator/target/" />
     <ignored path="$PROJECT_DIR$/MP3Demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,160 +32,96 @@
     <session id="-1783538445">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
-          <entry key="java" value="68" />
+          <entry key="java" value="90" />
           <entry key="md" value="3" />
+          <entry key="pom" value="1" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="11" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="90" />
           <entry key="Markdown" value="3" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="12" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3628" />
+          <entry key="java" value="4795" />
           <entry key="md" value="207" />
           <entry key="sql" value="6" />
           <entry key="txt" value="25" />
-          <entry key="xml" value="97" />
+          <entry key="xml" value="169" />
           <entry key="yml" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3628" />
+          <entry key="JAVA" value="4795" />
           <entry key="Markdown" value="207" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="SQL" value="6" />
-          <entry key="XML" value="97" />
+          <entry key="XML" value="169" />
           <entry key="YAML" value="74" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/Mp3DemoApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="8" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="425">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="226" selection-start-line="226" selection-end-line="234" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/enums/GenderEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="54" selection-start-line="54" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="145" selection-start-line="145" selection-end-line="164" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#4621#4622#0" expanded="true" />
+                <element signature="e#4654#4655#0" expanded="true" />
+                <element signature="e#4707#4708#0" expanded="true" />
+                <element signature="e#4740#4741#0" expanded="true" />
+                <element signature="e#4786#4787#0" expanded="true" />
+                <element signature="e#4821#4822#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="9" selection-start-line="9" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1054">
-                <caret line="531" column="77" selection-start-line="531" selection-start-column="77" selection-end-line="531" selection-end-column="77" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/SwaggerConfigure.java">
+        <entry file="file://$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/service/MPStudentServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            <state relative-caret-position="457">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="52" selection-start-line="52" selection-end-line="54" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -180,6 +134,7 @@
         <option value="Enum" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -191,8 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/CityMapper.xml" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/IdcardMapper.xml" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/CityDao.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/IdcardDao.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/SwaggerConfigure.java" />
@@ -204,22 +157,26 @@
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/business/AppBusiness.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/business/impl/AppBusinessImpl.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/Mp3DemoApplication.java" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Idcard.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/ConstantConfig.java" />
         <option value="$PROJECT_DIR$/CodeGenerator/doc/mybatis-plus.sql" />
-        <option value="$PROJECT_DIR$/MP3Demo/pom.xml" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/MPCityServiceImpl.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/Mp3DemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/enums/GenderEnum.java" />
-        <option value="$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Student.java" />
         <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/SwaggerConfigure.java" />
-        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/CodeGenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/Mp3DemoApplication.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/service/MPStudentServiceTest.java" />
       </list>
     </option>
   </component>
@@ -240,9 +197,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,60 +211,6 @@
           <expand>
             <path>
               <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
-              <item name="codegenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="MP3Demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,28 +257,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
               <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
-              <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
-              <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
@@ -388,17 +268,6 @@
               <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
               <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
-              <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
@@ -489,12 +358,23 @@
               <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
               <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyBatis-Plus-Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fengwenyi" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -505,7 +385,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535798138190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536683243684" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -516,14 +398,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.fengwenyi.mp3demo.business.impl" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fengwenyi.mp3demo.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Idea\open-project\MyBatis-Plus-Example\CodeGenerator\doc\image" />
       <recent name="D:\Workspace\Idea\open-project\MyBatis-Plus-Example\CodeGenerator\doc" />
       <recent name="D:\Workspace\Idea\open-project\MyBatis-Plus-Example\MP3Demo\src\main\java\com\fengwenyi\mp3demo" />
       <recent name="D:\Workspace\Idea\open-project\MyBatis-Plus-Example\MP3Demo\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fengwenyi.mp3demo.business.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,7 +426,87 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MPStudentServiceTest.test7">
+    <configuration name="MPStudentServiceTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP3Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.mp3demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fengwenyi.mp3demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fengwenyi.mp3demo.service.MPStudentServiceTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPStudentServiceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP3Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.mp3demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fengwenyi.mp3demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fengwenyi.mp3demo.service.MPStudentServiceTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPStudentServiceTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP3Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.mp3demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fengwenyi.mp3demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fengwenyi.mp3demo.service.MPStudentServiceTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPStudentServiceTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP3Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.mp3demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fengwenyi.mp3demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fengwenyi.mp3demo.service.MPStudentServiceTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPStudentServiceTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP3Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.mp3demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fengwenyi.mp3demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fengwenyi.mp3demo.service.MPStudentServiceTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mp3DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MP3Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.mp3demo.Mp3DemoApplication" />
@@ -546,6 +514,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Mp3DemoApplication" />
+      <item itemvalue="JUnit.MPStudentServiceTest.test3" />
+      <item itemvalue="JUnit.MPStudentServiceTest.test4" />
+      <item itemvalue="JUnit.MPStudentServiceTest.test5" />
+      <item itemvalue="JUnit.MPStudentServiceTest.test6" />
+      <item itemvalue="JUnit.MPStudentServiceTest.test7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MPStudentServiceTest.test7" />
+        <item itemvalue="JUnit.MPStudentServiceTest.test6" />
+        <item itemvalue="JUnit.MPStudentServiceTest.test5" />
+        <item itemvalue="JUnit.MPStudentServiceTest.test4" />
+        <item itemvalue="JUnit.MPStudentServiceTest.test3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\WenyiFeng\AppData\Roaming\Subversion</configuration>
@@ -558,6 +543,13 @@
       <option name="presentableId" value="Default" />
       <updated>1535776418542</updated>
       <workItem from="1535776421314" duration="19309000" />
+      <workItem from="1535798251657" duration="495000" />
+      <workItem from="1535961958522" duration="21000" />
+      <workItem from="1536582391219" duration="828000" />
+      <workItem from="1536589835659" duration="1034000" />
+      <workItem from="1536649169397" duration="678000" />
+      <workItem from="1536673116047" duration="70000" />
+      <workItem from="1536677576287" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis-Plus 3.0.1版本尝试">
       <created>1535798120342</created>
@@ -569,44 +561,76 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MPStudentServiceTest_test1 - 2018.09.11 at 23h 21m 10s.xml">
+      <configuration name="MPStudentServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test2 - 2018.09.11 at 23h 28m 26s.xml">
+      <configuration name="MPStudentServiceTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test3 - 2018.09.11 at 23h 34m 57s.xml">
+      <configuration name="MPStudentServiceTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test3 - 2018.09.11 at 23h 38m 14s.xml">
+      <configuration name="MPStudentServiceTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test4 - 2018.09.11 at 23h 42m 03s.xml">
+      <configuration name="MPStudentServiceTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test5 - 2018.09.11 at 23h 45m 51s.xml">
+      <configuration name="MPStudentServiceTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test5 - 2018.09.11 at 23h 47m 56s.xml">
+      <configuration name="MPStudentServiceTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test5 - 2018.09.11 at 23h 49m 40s.xml">
+      <configuration name="MPStudentServiceTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test6 - 2018.09.11 at 23h 52m 35s.xml">
+      <configuration name="MPStudentServiceTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MPStudentServiceTest_test7 - 2018.09.12 at 00h 12m 38s.xml">
+      <configuration name="MPStudentServiceTest.test7" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19309000" />
+    <option name="totallyTimeSpent" value="28294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.12624113" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4822695" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31631204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21134752" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -654,9 +678,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="MyBatis-Plus 3.0.1版本尝试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeGenerator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/CityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -665,13 +686,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/IdcardMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
@@ -703,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,10 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,19 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,97 +776,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/CustomMVCConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Idcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/business/impl/AppBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/ConstantConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeGenerator/doc/mybatis-plus-ed.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/UtilsV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <folding>
-            <element signature="e#0#4910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeGenerator/doc/mybatis-plus.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/doc/mybatis-plus-ed.sql" />
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/UtilsV2.java" />
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/doc/mybatis-plus.sql" />
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -886,33 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPCityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/IdcardServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/MPCityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,26 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/Mp3DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,10 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="185" column="43" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
-          <folding>
-            <element signature="e#2895#2896#0" expanded="true" />
-            <element signature="e#2947#2948#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,105 +832,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="297" column="32" lean-forward="true" selection-start-line="297" selection-start-column="32" selection-end-line="297" selection-end-column="32" />
-          <folding>
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2441#2442#0" expanded="true" />
-            <element signature="e#8446#8447#0" expanded="true" />
-            <element signature="e#8494#8495#0" expanded="true" />
-            <element signature="e#8846#8847#0" expanded="true" />
-            <element signature="e#8925#8926#0" expanded="true" />
-            <element signature="e#9438#9439#0" expanded="true" />
-            <element signature="e#9496#9497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="226" selection-start-line="226" selection-end-line="234" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/Mp3DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="8" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/enums/GenderEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="1325">
           <caret line="54" selection-start-line="54" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="52" selection-start-line="52" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
+        <state relative-caret-position="225">
           <caret line="9" selection-start-line="9" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/SwaggerConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="750">
           <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java">
+    <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="19" selection-start-line="19" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1054">
+          <first_editor relative-caret-position="605">
             <caret line="531" column="77" selection-start-line="531" selection-start-column="77" selection-end-line="531" selection-end-column="77" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/ConstantConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/config/CustomMVCConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Maven/repository/com/fengwenyi/JavaLib/1.0.1-RELEASE/JavaLib-1.0.1-RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeGenerator/src/main/java/com/fengwenyi/codegenerator/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Idcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1791">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/Mp3DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/Mp3DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="8" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/IdcardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPCityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/resources/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository/com/baomidou/mybatis-plus-core/3.0.1/mybatis-plus-core-3.0.1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2225">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/MPStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/main/java/com/fengwenyi/mp3demo/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="145" selection-start-line="145" selection-end-line="164" selection-end-column="5" />
+          <folding>
+            <element signature="e#4621#4622#0" expanded="true" />
+            <element signature="e#4654#4655#0" expanded="true" />
+            <element signature="e#4707#4708#0" expanded="true" />
+            <element signature="e#4740#4741#0" expanded="true" />
+            <element signature="e#4786#4787#0" expanded="true" />
+            <element signature="e#4821#4822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP3Demo/src/test/java/com/fengwenyi/mp3demo/service/MPStudentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
