@@ -29,25 +29,25 @@
 
 **功能列表：**
 
-* [✔] 自动生成model类
+* [x] 自动生成model类
 
-* [✔] 自动生成dao接口
+* [x] 自动生成dao接口
 
-* [✔] 自动生成xml文件
+* [x] 自动生成xml文件
 
-* [✔] 自动生成service接口
+* [x] 自动生成service接口
  
-* [✔] 自动生成service实现类
+* [x] 自动生成service实现类
 
-* [✔] model支持Builder模式
+* [x] model支持Builder模式
 
-* [✔] 支持swagger2
+* [x] 支持swagger2
 
-* [✔] 支持生成数据库字段常量
+* [x] 支持生成数据库字段常量
 
-* [✔] 支持生成Kotlin代码
+* [x] 支持生成Kotlin代码
 
-* [] ......
+* [ ] ......
 
 ## 项目初始化
 
