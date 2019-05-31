@@ -1,0 +1,19 @@
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis-plus
+    username: root
+    password: kU#m5eHY5iTiQj#q
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logback:
+  logDir: log/dev
+
+logging:
+  level:
+    com.fengwenyi.mp3demo.service.impl: trace
+    com.fengwenyi.mp3demo..controller: trace
