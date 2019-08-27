@@ -5,18 +5,18 @@
  Source Server Type    : MySQL
  Source Server Version : 80011
  Source Host           : localhost:3306
- Source Schema         : mybatis-plus
+ Source Schema         : mybatis-plus-example
 
  Target Server Type    : MySQL
  Target Server Version : 80011
  File Encoding         : 65001
 
- Date: 01/09/2018 15:49:34
- @author Wenyi Feng
+ Date: 08/27/2018 11:05:34
+ @author Erwin Feng
 */
 
-CREATE DATABASE `mybatis-plus` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
-USE `mybatis-plus`;
+CREATE DATABASE if not exists `mybatis-plus-example` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+USE `mybatis-plus-example`;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -77,7 +77,7 @@ CREATE TABLE `t_student`  (
 -- ----------------------------
 -- Records of t_student
 -- ----------------------------
-INSERT INTO `t_student` VALUES (1035788325322752001, '1', 1, '1', 0, '2018-09-01 15:15:55', '2018-09-01 15:15:55', 1, 1035788325276614657, 1035788325201117185);
-INSERT INTO `t_student` VALUES (1035789714459471874, '冯文议', 26, '无畏造英雄', 0, '2018-09-01 15:21:26', '2018-09-01 15:21:26', 1, 1035789714388168706, 1035762001753501698);
+INSERT INTO `t_student` VALUES (1035788325322752001, '张三', 20, '千里之行，始于足下', 0, '2018-09-01 15:15:55', '2019-08-27 11:08:55', 1, 1035788325276614657, 1035788325201117185);
+INSERT INTO `t_student` VALUES (1035789714459471874, '李四', 18, '不积跬步，无以至千里', 0, '2018-09-01 15:21:26', '2019-08-27 11:08:55', 1, 1035789714388168706, 1035762001753501698);
 
 SET FOREIGN_KEY_CHECKS = 1;

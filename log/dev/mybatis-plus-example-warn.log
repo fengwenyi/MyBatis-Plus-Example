@@ -1,0 +1,1 @@
+2019-08-27 11:14:02.005 [http-nio-8080-exec-9] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
