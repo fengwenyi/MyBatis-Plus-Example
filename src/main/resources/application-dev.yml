@@ -2,9 +2,10 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatis-plus
+    url: jdbc:mysql://localhost:3306/mybatis-plus-example
     username: root
-    password: kU#m5eHY5iTiQj#q
+#    password: kU#m5eHY5iTiQj#q
+    password: 123456
 
 mybatis-plus:
   configuration:
@@ -15,5 +16,5 @@ logback:
 
 logging:
   level:
-    com.fengwenyi.mp3demo.service.impl: trace
-    com.fengwenyi.mp3demo..controller: trace
+    com.fengwenyi.mybatis_plus_example.service.impl: trace
+    com.fengwenyi.mybatis_plus_example.controller: trace

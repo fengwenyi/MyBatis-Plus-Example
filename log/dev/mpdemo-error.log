@@ -14,7 +14,7 @@ org.apache.catalina.LifecycleException: Protocol handler start failed
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.fengwenyi.learnmybatisplus.LearnMybatisPlusApplication.main(LearnMybatisPlusApplication.java:24)
+	at com.fengwenyi.mybatis_plus_example.LearnMybatisPlusApplication.main(LearnMybatisPlusApplication.java:24)
 Caused by: java.net.BindException: Address already in use
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:433)

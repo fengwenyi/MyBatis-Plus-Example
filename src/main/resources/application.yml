@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: demo-mybatis-plus
+    name: mybatis-plus-example
   profiles:
     active: dev
 
@@ -13,9 +13,9 @@ mybatis-plus:
   # xml
   mapper-locations: classpath:mapper/*Mapper.xml
   # 实体扫描，多个package用逗号或者分号分隔
-  type-aliases-package: com.fengwenyi.learnmybatisplus.model
+  type-aliases-package: com.fengwenyi.mybatis_plus_example.model
   # 扫描枚举类 # 支持统配符 * 或者 ; 分割
-  type-enums-package: com.fengwenyi.learnmybatisplus.enums
+  type-enums-package: com.fengwenyi.mybatis_plus_example.enums
   global-config:
     #刷新mapper 调试神器
     db-config:
@@ -41,5 +41,5 @@ mybatis-plus:
     cache-enabled: false
 
 logback:
-  appName: learnmybatisplus
+  appName: mybatis-plus-example
   fileType: log

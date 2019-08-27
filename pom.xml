@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>com.fengwenyi</groupId>
-    <artifactId>learn-mybatis-plus</artifactId>
+    <artifactId>MyBatis-Plus-Example</artifactId>
     <version>3.2.0</version>
-    <name>learn-mybatis-plus</name>
-    <description>Demo MyBatis Plus</description>
+    <name>MyBatis-Plus-Example</name>
+    <description>MyBatis Plus Example</description>
 
     <properties>
         <java.version>1.8</java.version>

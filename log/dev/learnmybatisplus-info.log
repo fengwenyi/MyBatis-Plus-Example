@@ -18,3 +18,107 @@
 2019-05-31 16:04:54.993 [http-nio-9104-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-31 16:04:54.994 [http-nio-9104-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2019-05-31 16:04:55.002 [http-nio-9104-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-08-27 10:42:08.956 [main] INFO  c.f.learnmybatisplus.LearnMybatisPlusApplication - Starting LearnMybatisPlusApplication on localhost with PID 5755 (/Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus/target/classes started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus)
+2019-08-27 10:42:08.964 [main] INFO  c.f.learnmybatisplus.LearnMybatisPlusApplication - The following profiles are active: dev
+2019-08-27 10:42:10.718 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e434cfc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-27 10:42:11.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-27 10:42:11.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:42:11.174 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-27 10:42:11.175 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-27 10:42:11.301 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-27 10:42:11.301 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2201 ms
+2019-08-27 10:42:12.710 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-27 10:42:12.897 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:42:13.193 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-08-27 10:42:13.217 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-08-27 10:42:13.254 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-08-27 10:42:13.282 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:42:13.316 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-27 10:42:13.324 [main] INFO  c.f.learnmybatisplus.LearnMybatisPlusApplication - Started LearnMybatisPlusApplication in 5.375 seconds (JVM running for 6.699)
+2019-08-27 10:42:22.918 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-27 10:42:22.920 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-27 10:42:22.933 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-08-27 10:47:11.561 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:47:21.009 [main] INFO  c.f.m.LearnMybatisPlusApplication - Starting LearnMybatisPlusApplication on localhost with PID 5834 (/Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus/target/classes started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus)
+2019-08-27 10:47:21.011 [main] INFO  c.f.m.LearnMybatisPlusApplication - The following profiles are active: dev
+2019-08-27 10:47:21.962 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80489f37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-27 10:47:22.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-27 10:47:22.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:47:22.216 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-27 10:47:22.217 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-27 10:47:22.284 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-27 10:47:22.284 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1226 ms
+2019-08-27 10:47:22.875 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-27 10:47:22.970 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:47:23.122 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-08-27 10:47:23.138 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-08-27 10:47:23.159 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-08-27 10:47:23.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:47:23.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-27 10:47:23.276 [main] INFO  c.f.m.LearnMybatisPlusApplication - Started LearnMybatisPlusApplication in 2.684 seconds (JVM running for 3.218)
+2019-08-27 10:47:28.199 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-27 10:47:28.200 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-27 10:47:28.207 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-08-27 10:49:07.547 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:49:22.619 [main] INFO  c.f.m.LearnMybatisPlusApplication - Starting LearnMybatisPlusApplication on localhost with PID 5861 (/Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus/target/classes started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus)
+2019-08-27 10:49:22.621 [main] INFO  c.f.m.LearnMybatisPlusApplication - The following profiles are active: dev
+2019-08-27 10:49:23.462 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de9e606b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-27 10:49:23.699 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-27 10:49:23.711 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:49:23.720 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-27 10:49:23.720 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-27 10:49:23.786 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-27 10:49:23.786 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1125 ms
+2019-08-27 10:49:24.366 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-27 10:49:24.459 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:49:24.614 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-08-27 10:49:24.631 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-08-27 10:49:24.652 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-08-27 10:49:24.744 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:49:24.760 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-27 10:49:24.764 [main] INFO  c.f.m.LearnMybatisPlusApplication - Started LearnMybatisPlusApplication in 2.535 seconds (JVM running for 3.027)
+2019-08-27 10:49:28.128 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-27 10:49:28.129 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-27 10:49:28.134 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-27 10:49:48.458 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-27 10:50:37.715 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:50:41.502 [main] INFO  c.f.m.LearnMybatisPlusApplication - Starting LearnMybatisPlusApplication on localhost with PID 5876 (/Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus/target/classes started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus)
+2019-08-27 10:50:41.505 [main] INFO  c.f.m.LearnMybatisPlusApplication - The following profiles are active: dev
+2019-08-27 10:50:42.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8334f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-27 10:50:42.640 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-27 10:50:42.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:50:42.664 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-27 10:50:42.664 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-27 10:50:42.734 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-27 10:50:42.735 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1186 ms
+2019-08-27 10:50:43.329 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-27 10:50:43.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:50:43.579 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-08-27 10:50:43.595 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-08-27 10:50:43.616 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-08-27 10:50:43.715 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:50:43.731 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-27 10:50:43.735 [main] INFO  c.f.m.LearnMybatisPlusApplication - Started LearnMybatisPlusApplication in 2.611 seconds (JVM running for 3.11)
+2019-08-27 10:50:47.333 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-27 10:50:47.334 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-27 10:50:47.339 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-27 10:50:59.533 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-27 10:52:06.227 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:52:10.310 [main] INFO  c.f.m.LearnMybatisPlusApplication - Starting LearnMybatisPlusApplication on localhost with PID 5907 (/Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus/target/classes started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/learn-mybatis-plus)
+2019-08-27 10:52:10.312 [main] INFO  c.f.m.LearnMybatisPlusApplication - The following profiles are active: dev
+2019-08-27 10:52:11.371 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$863a37cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-27 10:52:11.600 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-27 10:52:11.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:52:11.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-27 10:52:11.620 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-27 10:52:11.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-27 10:52:11.689 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1336 ms
+2019-08-27 10:52:12.261 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-27 10:52:12.358 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 10:52:12.508 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-08-27 10:52:12.523 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-08-27 10:52:12.545 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-08-27 10:52:12.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-27 10:52:12.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-27 10:52:12.664 [main] INFO  c.f.m.LearnMybatisPlusApplication - Started LearnMybatisPlusApplication in 2.783 seconds (JVM running for 3.303)
+2019-08-27 10:53:57.194 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

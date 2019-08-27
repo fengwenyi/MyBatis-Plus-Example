@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.fengwenyi.learnmybatisplus.dao.StudentDao">
+<mapper namespace="com.fengwenyi.mybatis_plus_example.dao.StudentDao">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.fengwenyi.learnmybatisplus.model.Student">
+    <resultMap id="BaseResultMap" type="com.fengwenyi.mybatis_plus_example.model.Student">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="age" property="age" />
