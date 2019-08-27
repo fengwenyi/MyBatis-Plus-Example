@@ -1,6 +1,8 @@
 package com.fengwenyi.learnmybatisplus.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.fengwenyi.api_result.helper.ResultHelper;
+import com.fengwenyi.api_result.model.ResultModel;
 import com.fengwenyi.javalib.util.StringUtil;
 import com.fengwenyi.learnmybatisplus.business.AppBusiness;
 import com.fengwenyi.learnmybatisplus.enums.GenderEnum;
@@ -10,7 +12,6 @@ import com.fengwenyi.learnmybatisplus.model.Student;
 import com.fengwenyi.learnmybatisplus.service.MPCityService;
 import com.fengwenyi.learnmybatisplus.service.MPStudentService;
 import io.swagger.annotations.Api;
-import net.iutil.ApiResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -39,26 +40,26 @@ public class AppController {
 
     // 查询所有城市
     @GetMapping("/queryCityAll")
-    public ApiResult queryCityAll() {
+    public ResultModel queryCityAll() {
         List<City> cities = mpCityService.queryCityAll();
-        return ApiResult.success(cities);
+        return ResultHelper.success("Success", cities);
     }
 
 
     // 添加城市
     @PostMapping("/addCity")
-    public ApiResult addCity(String name) {
+    public ResultModel addCity(String name) {
         if (StringUtil.isEmpty(name))
-            return ApiResult.error();
+            return ResultHelper.error("名称不能为空");
         boolean rs = mpCityService.addCity(new City().setName(name));
         if (rs)
-            return ApiResult.success();
-        return ApiResult.error();
+            return ResultHelper.success("Success", null);
+        return ResultHelper.error("添加失败");
     }
 
     // 添加学生
     @PostMapping("/addStudent")
-    public ApiResult addStudent(String name, Integer age, String gender, String info, String idCardCode, String cityName) {
+    public ResultModel addStudent(String name, Integer age, String gender, String info, String idCardCode, String cityName) {
 
         // 检验参数
         if (StringUtil.isEmpty(name)
@@ -67,7 +68,7 @@ public class AppController {
                 || StringUtil.isEmpty(info)
                 || StringUtil.isEmpty(idCardCode)
                 || StringUtil.isEmpty(cityName))
-            return ApiResult.error();
+            return ResultHelper.error("参数不合法");
 
         // 获取GenderEnum
         GenderEnum genderEnum = GenderEnum.getEnumByDesc(gender);
@@ -88,16 +89,16 @@ public class AppController {
         // service
         boolean rs = appBusiness.addStudent(student, city, idcard);
         if (rs)
-            return ApiResult.success();
-        return ApiResult.error();
+            return ResultHelper.success("Success", null);
+        return ResultHelper.error("添加失败");
     }
 
     // 分页查询学生
     @GetMapping("/queryStudentByPage/{currentPage}")
-    public ApiResult queryStudentByPage(@PathVariable("currentPage") Long currentPage) {
+    public ResultModel queryStudentByPage(@PathVariable("currentPage") Long currentPage) {
         if (currentPage == null)
-            return ApiResult.error();
+            return ResultHelper.error("当前页不能为空");
         IPage<Student> studentIPage = mpStudentService.queryStudentByPage(currentPage);
-        return ApiResult.success(studentIPage);
+        return ResultHelper.success("Success", studentIPage);
     }
 }

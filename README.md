@@ -1,6 +1,20 @@
-# Learn MyBatis Plus
+# MyBatis-Plus-Example
 
 学习 MyBatis Plus
+
+[代码生成器](https://github.com/fengwenyi/mybatis-plus-code-generator)
+
+## 工程概要
+
+#### 版本
+
+| 名称 | 版本 | 上一个版本 | 更新时间 |
+| --- | --- | --- | --- |
+| Spring Boot | 2.1.7.RELEASE | 2.1.5.RELEASE | 2019.08.27 |
+| MyBatis-Plus | 3.2.0 | 3.0.1 | 2019.08.27 |
+| fastjson | 1.2.59 | - | 2019.08.27 |
+| api-result | 2.0.0 | - | 2019.08.27 |
+| swagger | 2.9.2 | - | 2019.08.27 |
 
 ## 引言
 
@@ -484,6 +498,8 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
 ```
+
+## 逻辑删除
 
 ## MyBatis-Plus-Example
 

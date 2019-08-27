@@ -1,5 +1,6 @@
 package com.fengwenyi.learnmybatisplus.service.impl;
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -10,7 +11,6 @@ import com.fengwenyi.learnmybatisplus.model.Student;
 import com.fengwenyi.learnmybatisplus.dao.StudentDao;
 import com.fengwenyi.learnmybatisplus.service.MPStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +71,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
 //        queryWrapper.lambda().like(Student::getName, "文");
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Override
@@ -81,7 +81,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
                 new Page<>(1, 2),
                 null);
 
-        Console.info(new Gson().toJson(page));
+        Console.info(JSON.toJSONString(page));
 
     }
 
@@ -94,7 +94,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
                 .eq(Student::getAge, 25);
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Override
@@ -107,7 +107,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
 
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Override
@@ -118,7 +118,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
                 .or(obj2 -> obj2.eq(Student::getName, "1"));
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Override
@@ -130,7 +130,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
                 .eq(Student::getName, "1");
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Resource
@@ -140,7 +140,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
     public void test7() {
         List<Student> studentList = studentDao.selectAll();
         for (Student student : studentList)
-            Console.info(new Gson().toJson(student));
+            Console.info(JSON.toJSONString(student));
     }
 
     @Override

@@ -1,90 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>2.1.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.fengwenyi</groupId>
     <artifactId>learn-mybatis-plus</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>3.2.0</version>
     <name>learn-mybatis-plus</name>
-    <description>学习MyBatis Plus</description>
+    <description>Demo MyBatis Plus</description>
 
     <properties>
         <java.version>1.8</java.version>
         <swagger2.version>2.9.2</swagger2.version>
         <JavaLib.version>1.0.4.RELEASE</JavaLib.version>
-        <mp.version>3.0.1</mp.version>
+        <mybatis-plus.version>3.2.0</mybatis-plus.version>
+        <fastjson.version>1.2.59</fastjson.version>
+        <api-result.version>2.0.0</api-result.version>
     </properties>
 
     <dependencies>
+        <!-- Spring Boot : Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- MySQL -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <!-- Spring Boot : Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+        <!-- mybatis-plus-boot-starter -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>${mp.version}</version>
+            <version>${mybatis-plus.version}</version>
         </dependency>
 
+        <!-- Swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
             <version>${swagger2.version}</version>
         </dependency>
-
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swagger2.version}</version>
         </dependency>
 
+        <!-- JavaLib -->
         <dependency>
             <groupId>com.fengwenyi</groupId>
             <artifactId>JavaLib</artifactId>
             <version>${JavaLib.version}</version>
         </dependency>
 
-        <dependency>
+        <!-- JSON -->
+        <!--<dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
-        </dependency>
-
+        </dependency>-->
+        <!-- 2019.08.27 移除gson，改用fastjson -->
         <dependency>
-            <groupId>com.github.iutil</groupId>
-            <artifactId>app-boot-starter</artifactId>
-            <version>1.0.0.BUILD</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
 
         <!-- 添加 Api Result 支持 -->
         <dependency>
-            <groupId>com.github.iutil</groupId>
+            <groupId>com.fengwenyi</groupId>
             <artifactId>api-result</artifactId>
-            <version>1.0.0.BUILD</version>
+            <version>${api-result.version}</version>
         </dependency>
     </dependencies>
 
@@ -96,12 +109,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
 
 </project>

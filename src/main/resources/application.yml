@@ -1,8 +1,10 @@
 #app
 server:
-  port: 9104
+  port: 8080
 
 spring:
+  application:
+    name: demo-mybatis-plus
   profiles:
     active: dev
 
