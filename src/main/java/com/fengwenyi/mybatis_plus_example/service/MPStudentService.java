@@ -64,4 +64,6 @@ public interface MPStudentService extends IService<Student> {
     Student findById(Long id);
 
     //------------------------------------------
+
+    List<Student> findByNameAndAge(String name, Integer age);
 }

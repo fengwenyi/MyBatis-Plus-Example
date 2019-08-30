@@ -1,6 +1,7 @@
 package com.fengwenyi.mybatis_plus_example.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -13,6 +14,7 @@ import com.fengwenyi.mybatis_plus_example.service.MPStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -162,6 +164,25 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
     public Student findById(Long id) {
         ExceptionUtil.notNull(id, "id must not null.");
         return getById(id);
+    }
+
+    @Override
+    public List<Student> findByNameAndAge(String name, Integer age) {
+
+LambdaQueryWrapper<Student> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+if (!StringUtils.isEmpty(name)) {
+    lambdaQueryWrapper.eq(Student::getName, name);
+}
+// 或者时，可添加，and时，不需要添加
+// lambdaQueryWrapper.or();
+if (age != null) {
+    lambdaQueryWrapper.eq(Student::getAge, age);
+}
+
+List<Student> studentList = list(lambdaQueryWrapper);
+for (Student student : studentList)
+    Console.info(JSON.toJSONString(student));
+        return null;
     }
 
     //--------------------------------------------------test end
