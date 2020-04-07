@@ -2,7 +2,9 @@
 
 学习 MyBatis Plus
 
-[代码生成器](https://github.com/fengwenyi/mybatis-plus-code-generator)
+## 代码生成器
+
+[请点击此处的传送门](https://github.com/fengwenyi/mybatis-plus-code-generator)
 
 ## 工程概要
 
