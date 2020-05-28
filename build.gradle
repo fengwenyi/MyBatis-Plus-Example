@@ -1,0 +1,46 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.0.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java'
+}
+
+group = 'com.fengwenyi'
+version = '3.3.2.BUILD'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenLocal()
+	maven { url 'https://maven.aliyun.com/repository/public' }
+	mavenCentral()
+}
+
+dependencies {
+	/* webflux */
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	/* lombok */
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	/* mysql */
+	runtimeOnly 'mysql:mysql-connector-java'
+	/* test */
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	testImplementation 'io.projectreactor:reactor-test'
+	/* mybatis-plus */
+	implementation 'com.baomidou:mybatis-plus-boot-starter:3.3.2'
+	/* api-result */
+	implementation 'com.fengwenyi:api-result:2.0.4.RELEASE'
+	/* JavaLib */
+	implementation 'com.fengwenyi:JavaLib:2.0.3.RELEASE'
+}
+
+test {
+	useJUnitPlatform()
+}
