@@ -19,9 +19,9 @@ CREATE TABLE `t_user` (
     `release_status` INT (1) DEFAULT 0 COMMENT '生效状态。0：不生效；1：生效',
 	`delete_status` INT (1) DEFAULT 0 COMMENT '删除状态。0：正常；-1：删除',
 	`create_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
-	`update_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间'
+	`update_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
     PRIMARY KEY (`id`),
     UNIQUE KEY `user_username` (`username`)
 ) ENGINE = INNODB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_bin COMMENT '用户表';
 
-INSERT INTO `t_user` (id, username, password, nickname, sex, release_status) VALUE (1, 'root', '$2a$10$0LRtdXG3yw/QD/t3wZvW.OXsex.p56T/8VZFzIN1K68mDdhPAHP1.', 'Root', 1, 1);
+INSERT INTO `t_user` (id, username, password, nickname, sex, release_status) VALUE (1, 'root', '123456', 'Root', 1, 1);
