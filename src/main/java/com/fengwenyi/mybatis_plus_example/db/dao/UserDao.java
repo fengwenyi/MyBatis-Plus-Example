@@ -1,6 +1,6 @@
 package com.fengwenyi.mybatis_plus_example.db.dao;
 
-import com.fengwenyi.mybatis_plus_example.db.entry.UserEntry;
+import com.fengwenyi.mybatis_plus_example.db.entity.UserEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author Erwin Feng
  * @since 2020-05-29
  */
-public interface UserDao extends BaseMapper<UserEntry> {
+public interface UserDao extends BaseMapper<UserEntity> {
 
 }

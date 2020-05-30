@@ -1,6 +1,6 @@
 package com.fengwenyi.mybatis_plus_example.db.repository.impl;
 
-import com.fengwenyi.mybatis_plus_example.db.entry.UserEntry;
+import com.fengwenyi.mybatis_plus_example.db.entity.UserEntity;
 import com.fengwenyi.mybatis_plus_example.db.dao.UserDao;
 import com.fengwenyi.mybatis_plus_example.db.repository.UserRepository;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2020-05-29
  */
 @Service
-public class UserRepositoryImpl extends ServiceImpl<UserDao, UserEntry> implements UserRepository {
+public class UserRepositoryImpl extends ServiceImpl<UserDao, UserEntity> implements UserRepository {
 
 }

@@ -1,5 +1,6 @@
-package com.fengwenyi.mybatis_plus_example.db.entry;
+package com.fengwenyi.mybatis_plus_example.db.entity;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
@@ -22,7 +23,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("t_user")
-public class UserEntry extends Model<UserEntry> {
+public class UserEntity extends Model<UserEntity> {
 
     private static final long serialVersionUID=1L;
 
@@ -55,12 +56,13 @@ public class UserEntry extends Model<UserEntry> {
     /**
      * 生效状态。0：不生效；1：生效
      */
-    private Integer releaseStatus;
+    private Boolean releaseStatus;
 
     /**
      * 删除状态。0：正常；-1：删除
      */
-    private Integer deleteStatus;
+    @TableLogic
+    private Boolean deleteStatus;
 
     /**
      * 创建时间

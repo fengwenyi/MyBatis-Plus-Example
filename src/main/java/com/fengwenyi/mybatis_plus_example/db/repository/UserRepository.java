@@ -1,6 +1,6 @@
 package com.fengwenyi.mybatis_plus_example.db.repository;
 
-import com.fengwenyi.mybatis_plus_example.db.entry.UserEntry;
+import com.fengwenyi.mybatis_plus_example.db.entity.UserEntity;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author Erwin Feng
  * @since 2020-05-29
  */
-public interface UserRepository extends IService<UserEntry> {
+public interface UserRepository extends IService<UserEntity> {
 
 }
