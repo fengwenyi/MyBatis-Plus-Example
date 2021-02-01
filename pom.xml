@@ -7,23 +7,23 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.7.RELEASE</version>
+        <version>2.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.fengwenyi</groupId>
     <artifactId>MyBatis-Plus-Example</artifactId>
-    <version>3.2.0</version>
+    <version>3.2.1-BUILD</version>
     <name>MyBatis-Plus-Example</name>
-    <description>MyBatis Plus Example</description>
+    <description>Spring Boot 整合 MyBatis Plus 实例</description>
 
     <properties>
         <java.version>1.8</java.version>
         <swagger2.version>2.9.2</swagger2.version>
-        <JavaLib.version>1.0.4.RELEASE</JavaLib.version>
-        <mybatis-plus.version>3.2.0</mybatis-plus.version>
+        <JavaLib.version>2.1.1</JavaLib.version>
+        <mybatis-plus.version>3.4.2</mybatis-plus.version>
         <fastjson.version>1.2.59</fastjson.version>
-        <api-result.version>2.0.0</api-result.version>
+        <api-result.version>2.3.1</api-result.version>
     </properties>
 
     <dependencies>
@@ -86,12 +86,14 @@
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
         </dependency>-->
+
         <!-- 2019.08.27 移除gson，改用fastjson -->
-        <dependency>
+        <!--<dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
-        </dependency>
+        </dependency>-->
+        <!-- 2021.01.22 移除fastjson -->
 
         <!-- 添加 Api Result 支持 -->
         <dependency>

@@ -30,3 +30,7 @@ mvnw.cmd
 ### VS Code ###
 .vscode/
 /log/
+.gradle
+gradle
+gradlew
+gradlew.bat

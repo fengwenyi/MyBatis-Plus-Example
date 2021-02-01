@@ -1,4 +1,4 @@
-package com.fengwenyi.mybatis_plus_example;
+package com.fengwenyi.mybatisplusexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
