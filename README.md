@@ -2,10 +2,6 @@
 
 Spring Boot 整合 MyBatis Plus 实例，持续更新！！！
 
-## 当前状态
-
-正在重构，准备写一个图片管理系统，来演示MyBatis-Plus如何使用，以及有哪些功能，在项目上如何使用，等等。
-
 ## 代码生成器
 
 [请点击此处的传送门](https://github.com/fengwenyi/mybatis-plus-code-generator)
@@ -33,3 +29,26 @@ SNAPSHOT
 RELEASE
 稳定版本：已发布到中央仓库。
 
+## 数据库设计
+
+### 商品类别表-category
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| id | bigint(20) | 主键ID |
+| name | varchar(50) | 类别名称 |
+
+### 商品表-goods
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| id | bigint(20) | 主键ID |
+| name | varchar(255) | 商品名称 |
+| category_id | bigint(20) | 类别ID |
+| stock_num | bigint(20) | 库存数量 |
+| price | decimal(9, 4) | 单价 |
+| flag | tinyint(1) | 上下架。0：下架；1：上架。默认0。 |
+| delete_status | tinyint(1) | 逻辑删除状态。0：正常；1：删除。默认0。 |
+| create_time | datetime | 创建时间 |
+| update_time | datetime | 更新时间 |
+| create_by | varchar(64) | 创建人 |
+| update_by | varchar(64) | 修改人 |
+| version | int(11) | 版本。默认：0。 |
