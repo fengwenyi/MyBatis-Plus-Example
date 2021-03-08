@@ -1,14 +1,14 @@
 package com.fengwenyi.mybatisplusexample.entity;
 
 import java.math.BigDecimal;
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.IdType;
+
+import com.baomidou.mybatisplus.annotation.*;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+
+import com.fengwenyi.mybatisplusexample.entity.enums.GoodsFlagEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -63,7 +63,7 @@ public class GoodsEntity extends Model<GoodsEntity> {
      * 上下架。0：下架；1：上架。默认0。
      */
     @TableField("flag")
-    private Boolean flag;
+    private GoodsFlagEnum flag;
 
     /**
      * 逻辑删除状态。0：正常；1：删除。默认0。
@@ -100,6 +100,7 @@ public class GoodsEntity extends Model<GoodsEntity> {
      * 版本。默认：0。
      */
     @TableField("version")
+    @Version
     private Integer version;
 
 

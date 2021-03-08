@@ -1,11 +1,13 @@
 #spring
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatis-plus-example
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.16.128:3306/mybatis-plus-example
     username: root
 #    password: kU#m5eHY5iTiQj#q
     password: 123456
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://192.168.16.128:3306/mybatis-plus-example
 
 mybatis-plus:
   configuration:

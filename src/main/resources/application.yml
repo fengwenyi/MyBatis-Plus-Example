@@ -13,9 +13,9 @@ mybatis-plus:
   # xml
   mapper-locations: classpath:mapper/*Mapper.xml
   # 实体扫描，多个package用逗号或者分号分隔
-  type-aliases-package: com.fengwenyi.mybatis_plus_example.model
+  type-aliases-package: com.fengwenyi.mybatisplusexample.entity
   # 扫描枚举类 # 支持统配符 * 或者 ; 分割
-  type-enums-package: com.fengwenyi.mybatis_plus_example.enums
+  type-enums-package: com.fengwenyi.mybatisplusexample.entity.enums
   global-config:
     #刷新mapper 调试神器
     db-config:
