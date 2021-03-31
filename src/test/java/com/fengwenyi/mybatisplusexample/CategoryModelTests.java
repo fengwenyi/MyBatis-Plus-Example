@@ -57,6 +57,8 @@ public class CategoryModelTests extends MybatisPlusExampleApplicationTests {
         model.setName("category update");
         boolean testResult = model.updateById();
         Assert.isTrue(testResult, "data update test failure");
+
+        clear();
     }
 
 
