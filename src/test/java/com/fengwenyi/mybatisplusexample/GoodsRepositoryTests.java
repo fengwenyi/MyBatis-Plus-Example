@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -64,6 +65,15 @@ public class GoodsRepositoryTests extends MybatisPlusExampleApplicationTests {
         GoodsEntity goodsEntity = goodsEntityList.get(0);
         goodsEntity.setPrice(new BigDecimal("6499.00"));
         mpGoodsRepository.updateById(goodsEntity);
+    }
+
+    @Test
+    void testQueryTime() {
+        LambdaQueryWrapper<GoodsEntity> queryWrapper = new LambdaQueryWrapper<GoodsEntity>()
+                .lt(GoodsEntity::getCreateTime, LocalDateTime.parse("2021-04-08 10:00:00")) // where create_time < 2021-04-08 10:00:00
+                .gt(GoodsEntity::getCreateTime, LocalDateTime.parse("2021-04-09 10:00:00")) // where create_time > 2021-04-09 10:00:00
+                ;
+        List<GoodsEntity> list = mpGoodsRepository.list(queryWrapper);
     }
 
 }
