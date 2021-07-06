@@ -81,21 +81,6 @@
             <version>${JavaLib.version}</version>
         </dependency>
 
-        <!-- JSON -->
-        <!--<dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
-        </dependency>-->
-
-        <!-- 2019.08.27 移除gson，改用fastjson -->
-        <!--<dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>${fastjson.version}</version>
-        </dependency>-->
-        <!-- 2021.01.22 移除fastjson -->
-
         <!-- 添加 Api Result 支持 -->
         <dependency>
             <groupId>com.fengwenyi</groupId>
@@ -109,7 +94,6 @@
             <artifactId>p6spy</artifactId>
             <version>3.9.1</version>
         </dependency>
-
     </dependencies>
 
     <build>
