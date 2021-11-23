@@ -6,6 +6,12 @@ Spring Boot 整合 MyBatis Plus 实例，持续更新！！！
 
 [请点击此处的传送门](https://github.com/fengwenyi/mybatis-plus-code-generator)
 
+## 不再维护
+
+作者尽力有限，此项目不再维护，后续会全部迁移到这里
+
+[demo-spring-boot-mybatis-plus](https://github.com/fengwenyi/spring-boot-demo/tree/main/demo-spring-boot-mybatis-plus)
+
 ## 三方框架版本总览
 
 | 名称 | 版本 | 更新时间 |
